@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask Example</title>
+</head>
+<body>
+    <h2>Enter Your Name</h2>
+    
+    <form method="POST">
+        <input type="text" name="name1" required placeholder="Enter your name"> <br><br>
+        <input type="number" name="age" required placeholder="Enter your Age"> <br><br>
+        <button type="submit">Submit</button> <br><br>
+    </form>
+
+    {% if result %}
+    <h1>{{ result }}</h1>
+{% endif %}
+
+</body>
+</html>
